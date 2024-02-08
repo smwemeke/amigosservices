@@ -2,5 +2,5 @@ package com.amigoscode.fraud;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface FraudRepository extends JpaRepository<Fraud, Integer> {
+public interface FraudCheckHistoryRepository extends JpaRepository<FraudCheckHistory, Integer> {
 }

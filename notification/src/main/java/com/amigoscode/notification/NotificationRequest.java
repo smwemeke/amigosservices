@@ -1,2 +1,8 @@
-package com.amigoscode.notification;public record NotificationRequest() {
+package com.amigoscode.notification;
+
+public record NotificationRequest(
+        Integer toCustomerId,
+        String toCustomerEmail,
+        String message
+) {
 }

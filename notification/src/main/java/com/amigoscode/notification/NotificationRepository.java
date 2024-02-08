@@ -1,2 +1,6 @@
-package com.amigoscode.notification;public interface NotificationRepository {
+package com.amigoscode.notification;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NotificationRepository extends JpaRepository<Notification, Integer> {
 }

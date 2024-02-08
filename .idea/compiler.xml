@@ -6,7 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="amigosservices" />
+        <module name="apigateway" />
+        <module name="notification" />
+        <module name="fraud" />
+        <module name="amqp" />
+        <module name="feignClients" />
+        <module name="eureka-server" />
+        <module name="customer" />
       </profile>
     </annotationProcessing>
   </component>
