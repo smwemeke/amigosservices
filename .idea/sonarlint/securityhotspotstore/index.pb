@@ -147,3 +147,5 @@ O
 Q.idea/sonarlint/securityhotspotstore/a/3/a3616ed44ed92906f3677b2292cd5030cde6132c,3\f\3fedf2da4957782422f373223c4a25f306fade0b
 =
 amqp/amqp.iml,6\8\6815b281a4e44b1aaf41d7e4bf018dcc351ef991
+~
+Nnotification/src/main/java/com/amigoscode/notification/NotificationConfig.java,6\7\67a6607e8a6052a23f91069a8b952a0b4e20c9d7
