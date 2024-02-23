@@ -1,4 +1,4 @@
-package com.amigoscod.amqp;
+package com.amigoscode.amqp;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -12,9 +12,9 @@ public class RabbitMQMessageProducer {
 
     private final AmqpTemplate amqpTemplate;
 
-   // publish message to topic exchange
+   // publish message to  exchange
     public void publish (Object payload, String exchange, String routingKey){
-        log.info("Publishinh to {} using routingKey {}. Payload: {}", exchange, routingKey);
+        log.info("Publishing to {} using routingKey {}. Payload: {}", exchange, routingKey);
         amqpTemplate.convertAndSend(exchange, routingKey, payload);
         log.info("Published to {} using routingKey {}. Payload: {}", exchange, routingKey);
 

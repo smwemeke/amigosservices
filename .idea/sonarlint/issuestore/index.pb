@@ -117,10 +117,6 @@ D
 WfeignClients/src/main/java/com/amigoscode/clients/notification/NotificationRequest.java,7\e\7e8c760b99b13fd1a8e69463903ef9763a469c34
 <
 amqp/pom.xml,3\9\39d5bf97f55ed62f85d09f9444dcd78c9eb5188e
-i
-9amqp/src/main/java/com/amigoscod/amqp/RabbitmqConfig.java,f\4\f4e4b99d621cffd405c95b48c557dad386c42cea
-i
-9amqp/src/main/java/com/amigoscod/amqp/RabbitMQConfig.java,6\a\6afe04a676d9ee53054b551a3cbbadefdd292858
 ]
 -apigateway/src/main/resources/application.yml,a\3\a3616ed44ed92906f3677b2292cd5030cde6132c
 `
@@ -149,5 +145,9 @@ Q.idea/sonarlint/securityhotspotstore/a/3/a3616ed44ed92906f3677b2292cd5030cde613
 amqp/amqp.iml,6\8\6815b281a4e44b1aaf41d7e4bf018dcc351ef991
 ~
 Nnotification/src/main/java/com/amigoscode/notification/NotificationConfig.java,6\7\67a6607e8a6052a23f91069a8b952a0b4e20c9d7
-r
-Bamqp/src/main/java/com/amigoscod/amqp/RabbitMQMessageProducer.java,1\4\14017952c5c15cd6b55f7a0924c9ec6a28f3942c
+s
+Camqp/src/main/java/com/amigoscode/amqp/RabbitMQMessageProducer.java,3\8\389d1b992ce35f5994567bd91f6a7e2ff2251009
+j
+:amqp/src/main/java/com/amigoscode/amqp/RabbitMQConfig.java,c\6\c68304216ef692c2ac4730f4fc0cb3930dffebce
+‰
+Ynotification/src/main/java/com/amigoscode/notification/rabbitmq/NotificationConsumer.java,c\f\cf0141f9c857d79d7725c6498afc0179b02ca693

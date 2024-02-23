@@ -22,7 +22,7 @@ public class NotificationConfig {
     private String internalNotificationRoutingKey;
 
    @Bean
-   // Define topic exchange
+   // Define exchange
    public TopicExchange internalTopicExchange(){
        return new TopicExchange(this.internalExchange);
 

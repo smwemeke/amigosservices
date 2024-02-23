@@ -23,8 +23,8 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.boot.maven.plugin.version>3.2.2</spring.boot.maven.plugin.version>
-        <spring.boot.dependencies.version>3.2.2</spring.boot.dependencies.version>
+        <spring.boot.maven.plugin.version>3.1.2</spring.boot.maven.plugin.version>
+        <spring.boot.dependencies.version>3.1.2</spring.boot.dependencies.version>
         <spring-cloud.version>2022.0.3</spring-cloud.version>
     </properties>
 
@@ -73,9 +73,27 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <version>${spring.boot.maven.plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>repackage</goal>
+                            </goals>
+                        </execution>
+                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>21</source>
+                    <target>21</target>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
 </project>

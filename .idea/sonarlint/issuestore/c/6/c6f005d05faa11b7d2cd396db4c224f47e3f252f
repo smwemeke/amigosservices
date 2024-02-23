@@ -1,0 +1,13 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(ñ‚´µùÿÿÿÿ8æûóÜ1
+X	java:S125""<This block of commented-out lines of code should be removed.(àí¬û8úÉúóÜ1
+e
+java:S1128"HRemove this unused import 'com.amigoscode.amqp.RabbitMQMessageProducer'.(Üş­â8ûÉúóÜ1
+x
+java:S1128"VRemove this unused import 'org.springframework.amqp.rabbit.annotation.RabbitListener'.(İÑÀ›ÿÿÿÿÿ8ûÉúóÜ1
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8êûóÜ1
+d
+java:S1128"GRemove this unused import 'org.springframework.boot.CommandLineRunner'.(È—ÿÅ8ûÉúóÜ1
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8üÉúóÜ1

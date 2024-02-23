@@ -30,6 +30,8 @@ management:
   zipkin:
     tracing:
       enabled: true
+  rabbitmq:
+    addresses: localhost:5672
 
 rabbitmq:
   exchanges:
@@ -38,5 +40,12 @@ rabbitmq:
     notification: notification.queue
   routing-keys:
     internal-notification: internal.notification.routing-key
+#logging:
+#  level:
+#    com:
+#      amigoscode:
+#        notification:
+#          rabbitmq:
+#            NotificationConsumer=DEBUG:
 
 

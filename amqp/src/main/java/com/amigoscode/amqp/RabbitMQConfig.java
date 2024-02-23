@@ -1,4 +1,4 @@
-package com.amigoscod.amqp;
+package com.amigoscode.amqp;
 
 import lombok.AllArgsConstructor;
 import org.springframework.amqp.core.AmqpTemplate;
@@ -14,13 +14,13 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@AllArgsConstructor
 public class RabbitMQConfig {
     @Bean
+    // used to configure and create connections to a RabbitMQ broker.
     public  ConnectionFactory connectionFactory(){
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory("localhost");
-        connectionFactory.setUsername("admin");
-        connectionFactory.setPassword("secret");
+        connectionFactory.setUsername("guest");
+        connectionFactory.setPassword("guest");
         return  connectionFactory;
     }
     @Bean
@@ -31,7 +31,7 @@ public class RabbitMQConfig {
         return  rabbitTemplate;
     }
 
-    // list to messages from queue
+    // listen to messages from queue
     @Bean
     public SimpleRabbitListenerContainerFactory simpleRabbitListenerContainerFactory(){
         SimpleRabbitListenerContainerFactory factory =
