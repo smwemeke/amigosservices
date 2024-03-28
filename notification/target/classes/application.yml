@@ -40,12 +40,12 @@ rabbitmq:
     notification: notification.queue
   routing-keys:
     internal-notification: internal.notification.routing-key
-logging:
-  level:
-    com:
-      amigoscode:
-        notification:
-          rabbitmq:
-            NotificationConsumer=DEBUG:
+#logging:
+#  level:
+#    com:
+#      amigoscode:
+#        notification:
+#          rabbitmq:
+#            NotificationConsumer=DEBUG:
 
 

@@ -151,3 +151,5 @@ j
 :amqp/src/main/java/com/amigoscode/amqp/RabbitMQConfig.java,c\6\c68304216ef692c2ac4730f4fc0cb3930dffebce
 ‰
 Ynotification/src/main/java/com/amigoscode/notification/rabbitmq/NotificationConsumer.java,c\f\cf0141f9c857d79d7725c6498afc0179b02ca693
+4
+mvnw,5\d\5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d

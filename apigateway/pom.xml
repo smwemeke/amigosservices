@@ -8,14 +8,9 @@
         <artifactId>amigosservices</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
+    <packaging>jar</packaging>
     <artifactId>apigateway</artifactId>
 
-    <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -43,5 +38,14 @@
             <artifactId>feign-micrometer</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
